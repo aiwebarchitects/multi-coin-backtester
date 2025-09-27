@@ -48,8 +48,8 @@ A modular, self-testing cryptocurrency backtesting system that automatically fin
 ### Setup
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd multi_crypto_coin_multi_algo_backtester
+git clone https://github.com/aiwebarchitects/multi-coin-backtester.git
+cd multi-coin-backtester
 ```
 
 2. Install dependencies:
@@ -266,7 +266,7 @@ python3 start_backtesting.py
 ## 📁 Project Structure
 
 ```
-multi_crypto_coin_multi_algo_backtester/
+multi-coin-backtester/
 ├── start_backtesting.py          # Main entry point
 ├── settings.py                   # Configuration file
 ├── historical_data_fetcher.py    # Data download functionality
