@@ -1,0 +1,435 @@
+{
+  "strategies": [
+    {
+      "strategy_name": "RSI",
+      "coin": "ETH",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:12:39.047709",
+      "data_points": 2001,
+      "parameters": {
+        "period": 14,
+        "oversold_threshold": 25,
+        "overbought_threshold": 80,
+        "take_profit": 0.02,
+        "stop_loss": -0.01
+      },
+      "win_rate": 100.0,
+      "metrics": {
+        "total_trades": 6,
+        "win_rate": 100.0,
+        "avg_profit": 1.4779507016234232,
+        "total_profit": 8.86770420974054,
+        "max_drawdown": 0.0,
+        "profit_factor": Infinity,
+        "long_trades": 3,
+        "short_trades": 3,
+        "avg_trade_duration": 323.6666666666667,
+        "take_profit_exits": 4,
+        "stop_loss_exits": 1,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "MACD",
+      "coin": "XRP",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:32:39.289876",
+      "data_points": 2001,
+      "parameters": {
+        "fast_period": 10,
+        "slow_period": 20,
+        "signal_period": 12,
+        "take_profit": 0.02,
+        "stop_loss": -0.007
+      },
+      "win_rate": 100.0,
+      "metrics": {
+        "total_trades": 7,
+        "win_rate": 100.0,
+        "avg_profit": 1.254782254782254,
+        "total_profit": 8.783475783475778,
+        "max_drawdown": 0.0,
+        "profit_factor": Infinity,
+        "long_trades": 2,
+        "short_trades": 5,
+        "avg_trade_duration": 279.57142856666667,
+        "take_profit_exits": 4,
+        "stop_loss_exits": 2,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SMA",
+      "coin": "ETH",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:13:09.293189",
+      "data_points": 2001,
+      "parameters": {
+        "short_period": 15,
+        "long_period": 20,
+        "take_profit": 0.02,
+        "stop_loss": -0.01
+      },
+      "win_rate": 100.0,
+      "metrics": {
+        "total_trades": 6,
+        "win_rate": 100.0,
+        "avg_profit": 1.3123002018404442,
+        "total_profit": 7.8738012110426645,
+        "max_drawdown": 0.0,
+        "profit_factor": Infinity,
+        "long_trades": 2,
+        "short_trades": 4,
+        "avg_trade_duration": 314.8333333333333,
+        "take_profit_exits": 3,
+        "stop_loss_exits": 2,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SMA",
+      "coin": "XRP",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:33:19.591884",
+      "data_points": 2001,
+      "parameters": {
+        "short_period": 8,
+        "long_period": 20,
+        "take_profit": 0.015,
+        "stop_loss": -0.01
+      },
+      "win_rate": 100.0,
+      "metrics": {
+        "total_trades": 7,
+        "win_rate": 100.0,
+        "avg_profit": 1.0916172604010936,
+        "total_profit": 7.641320822807655,
+        "max_drawdown": 0.0,
+        "profit_factor": Infinity,
+        "long_trades": 3,
+        "short_trades": 4,
+        "avg_trade_duration": 259.7142857,
+        "take_profit_exits": 5,
+        "stop_loss_exits": 1,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "RSI",
+      "coin": "XRP",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:32:45.725395",
+      "data_points": 2001,
+      "parameters": {
+        "period": 16,
+        "oversold_threshold": 20,
+        "overbought_threshold": 65,
+        "take_profit": 0.015,
+        "stop_loss": -0.005
+      },
+      "win_rate": 90.0,
+      "metrics": {
+        "total_trades": 10,
+        "win_rate": 90.0,
+        "avg_profit": 0.7259493670886072,
+        "total_profit": 7.259493670886073,
+        "max_drawdown": 0.0,
+        "profit_factor": 11.370705244122961,
+        "long_trades": 4,
+        "short_trades": 6,
+        "avg_trade_duration": 190.1,
+        "take_profit_exits": 5,
+        "stop_loss_exits": 4,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SUPPORT_VOLUME",
+      "coin": "XRP",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:33:13.660687",
+      "data_points": 2001,
+      "parameters": {
+        "support_period": 10,
+        "volume_threshold": 1.2,
+        "min_touches": 2,
+        "take_profit": 0.015,
+        "stop_loss": -0.01
+      },
+      "win_rate": 80.0,
+      "metrics": {
+        "total_trades": 5,
+        "win_rate": 80.0,
+        "avg_profit": 0.8496221662468505,
+        "total_profit": 4.248110831234253,
+        "max_drawdown": 0.4518891687657476,
+        "profit_factor": 10.400780379041151,
+        "long_trades": 2,
+        "short_trades": 3,
+        "avg_trade_duration": 315.8,
+        "take_profit_exits": 3,
+        "stop_loss_exits": 1,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "MACD",
+      "coin": "ETH",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:12:32.277391",
+      "data_points": 2001,
+      "parameters": {
+        "fast_period": 8,
+        "slow_period": 32,
+        "signal_period": 12,
+        "take_profit": 0.02,
+        "stop_loss": -0.007
+      },
+      "win_rate": 75.0,
+      "metrics": {
+        "total_trades": 8,
+        "win_rate": 75.0,
+        "avg_profit": 0.5214075880547656,
+        "total_profit": 4.171260704438125,
+        "max_drawdown": 0.9000000000000001,
+        "profit_factor": 3.3173670580211803,
+        "long_trades": 4,
+        "short_trades": 4,
+        "avg_trade_duration": 240.375,
+        "take_profit_exits": 2,
+        "stop_loss_exits": 5,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SUPPORT_VOLUME",
+      "coin": "ETH",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:13:03.233129",
+      "data_points": 2001,
+      "parameters": {
+        "support_period": 20,
+        "volume_threshold": 1.2,
+        "min_touches": 2,
+        "take_profit": 0.01,
+        "stop_loss": -0.007
+      },
+      "win_rate": 100.0,
+      "metrics": {
+        "total_trades": 4,
+        "win_rate": 100.0,
+        "avg_profit": 0.8,
+        "total_profit": 3.2,
+        "max_drawdown": 0.0,
+        "profit_factor": Infinity,
+        "long_trades": 3,
+        "short_trades": 1,
+        "avg_trade_duration": 266.75,
+        "take_profit_exits": 4,
+        "stop_loss_exits": 0,
+        "market_close_exits": 0
+      }
+    },
+    {
+      "strategy_name": "MACD",
+      "coin": "PAXG",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:33:27.791328",
+      "data_points": 2001,
+      "parameters": {
+        "fast_period": 8,
+        "slow_period": 20,
+        "signal_period": 12,
+        "take_profit": 0.01,
+        "stop_loss": -0.005
+      },
+      "win_rate": 87.5,
+      "metrics": {
+        "total_trades": 8,
+        "win_rate": 87.5,
+        "avg_profit": 0.24529217348812066,
+        "total_profit": 1.9623373879049653,
+        "max_drawdown": 0.13766261209503483,
+        "profit_factor": 15.254686570601136,
+        "long_trades": 0,
+        "short_trades": 8,
+        "avg_trade_duration": 245.875,
+        "take_profit_exits": 0,
+        "stop_loss_exits": 7,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SMA",
+      "coin": "PAXG",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:34:05.697838",
+      "data_points": 2001,
+      "parameters": {
+        "short_period": 15,
+        "long_period": 20,
+        "take_profit": 0.01,
+        "stop_loss": -0.007
+      },
+      "win_rate": 75.0,
+      "metrics": {
+        "total_trades": 4,
+        "win_rate": 75.0,
+        "avg_profit": 0.43477391019753453,
+        "total_profit": 1.7390956407901381,
+        "max_drawdown": 0.060904359209861925,
+        "profit_factor": 29.554534738599397,
+        "long_trades": 1,
+        "short_trades": 3,
+        "avg_trade_duration": 486.5,
+        "take_profit_exits": 1,
+        "stop_loss_exits": 2,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "RSI",
+      "coin": "BTC",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:11:52.405637",
+      "data_points": 2001,
+      "parameters": {
+        "period": 10,
+        "oversold_threshold": 20,
+        "overbought_threshold": 70,
+        "take_profit": 0.01,
+        "stop_loss": -0.005
+      },
+      "win_rate": 100.0,
+      "metrics": {
+        "total_trades": 4,
+        "win_rate": 100.0,
+        "avg_profit": 0.3741349855356385,
+        "total_profit": 1.496539942142554,
+        "max_drawdown": 0.0,
+        "profit_factor": Infinity,
+        "long_trades": 0,
+        "short_trades": 4,
+        "avg_trade_duration": 494.5,
+        "take_profit_exits": 1,
+        "stop_loss_exits": 2,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "MACD",
+      "coin": "BTC",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:11:46.049472",
+      "data_points": 2001,
+      "parameters": {
+        "fast_period": 12,
+        "slow_period": 20,
+        "signal_period": 9,
+        "take_profit": 0.01,
+        "stop_loss": -0.005
+      },
+      "win_rate": 75.0,
+      "metrics": {
+        "total_trades": 4,
+        "win_rate": 75.0,
+        "avg_profit": 0.2452549725124686,
+        "total_profit": 0.9810198900498744,
+        "max_drawdown": 0.0,
+        "profit_factor": 2.4014569857855346,
+        "long_trades": 3,
+        "short_trades": 1,
+        "avg_trade_duration": 494.25,
+        "take_profit_exits": 2,
+        "stop_loss_exits": 1,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SMA",
+      "coin": "BTC",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:12:23.396581",
+      "data_points": 2001,
+      "parameters": {
+        "short_period": 8,
+        "long_period": 25,
+        "take_profit": 0.01,
+        "stop_loss": -0.005
+      },
+      "win_rate": 66.66666666666666,
+      "metrics": {
+        "total_trades": 3,
+        "win_rate": 66.66666666666666,
+        "avg_profit": 0.19898502700439183,
+        "total_profit": 0.5969550810131755,
+        "max_drawdown": 0.0,
+        "profit_factor": 1.852792972875965,
+        "long_trades": 2,
+        "short_trades": 1,
+        "avg_trade_duration": 642.6666666666666,
+        "take_profit_exits": 1,
+        "stop_loss_exits": 1,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "RSI",
+      "coin": "PAXG",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:33:34.142916",
+      "data_points": 2001,
+      "parameters": {
+        "period": 10,
+        "oversold_threshold": 20,
+        "overbought_threshold": 65,
+        "take_profit": 0.01,
+        "stop_loss": -0.005
+      },
+      "win_rate": 66.66666666666666,
+      "metrics": {
+        "total_trades": 3,
+        "win_rate": 66.66666666666666,
+        "avg_profit": 0.034542973527363324,
+        "total_profit": 0.10362892058208997,
+        "max_drawdown": 0.0,
+        "profit_factor": 1.1480413151172713,
+        "long_trades": 2,
+        "short_trades": 1,
+        "avg_trade_duration": 665.3333333333334,
+        "take_profit_exits": 1,
+        "stop_loss_exits": 1,
+        "market_close_exits": 1
+      }
+    },
+    {
+      "strategy_name": "SUPPORT_VOLUME",
+      "coin": "BTC",
+      "timeframe": "1m",
+      "optimization_date": "2025-09-27T15:12:17.420045",
+      "data_points": 2001,
+      "parameters": {
+        "support_period": 20,
+        "volume_threshold": 1.2,
+        "min_touches": 2,
+        "take_profit": 0.01,
+        "stop_loss": -0.005
+      },
+      "win_rate": 33.33333333333333,
+      "metrics": {
+        "total_trades": 3,
+        "win_rate": 33.33333333333333,
+        "avg_profit": -0.3666666666666667,
+        "total_profit": -1.1,
+        "max_drawdown": 1.4000000000000001,
+        "profit_factor": 0.21428571428571425,
+        "long_trades": 2,
+        "short_trades": 1,
+        "avg_trade_duration": 149.0,
+        "take_profit_exits": 0,
+        "stop_loss_exits": 3,
+        "market_close_exits": 0
+      }
+    }
+  ]
+}

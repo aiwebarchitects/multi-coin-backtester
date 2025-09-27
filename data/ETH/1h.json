@@ -1,0 +1,907 @@
+{
+  "symbol": "ETH",
+  "timeframe": "1h",
+  "last_update": "2025-09-27T15:11:37.743393",
+  "data": [
+    {
+      "timestamp": "2025-08-28T18:00:00",
+      "price": 4495.49,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-28T22:00:00",
+      "price": 4458.95,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-29T02:00:00",
+      "price": 4507.56,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-29T06:00:00",
+      "price": 4502.59,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-29T10:00:00",
+      "price": 4387.7,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-29T14:00:00",
+      "price": 4344.09,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-29T18:00:00",
+      "price": 4335.16,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-29T22:00:00",
+      "price": 4347.47,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-30T02:00:00",
+      "price": 4364.36,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-30T06:00:00",
+      "price": 4360.69,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-30T10:00:00",
+      "price": 4405.51,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-30T14:00:00",
+      "price": 4390.52,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-30T18:00:00",
+      "price": 4373.45,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-30T22:00:00",
+      "price": 4350.52,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-31T02:00:00",
+      "price": 4373.36,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-31T06:00:00",
+      "price": 4479.65,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-31T10:00:00",
+      "price": 4452.01,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-31T14:00:00",
+      "price": 4479.18,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-31T18:00:00",
+      "price": 4484.53,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-08-31T22:00:00",
+      "price": 4459.63,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-01T02:00:00",
+      "price": 4388.93,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-01T06:00:00",
+      "price": 4394.66,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-01T10:00:00",
+      "price": 4452.63,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-01T14:00:00",
+      "price": 4397.12,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-01T18:00:00",
+      "price": 4359.13,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-01T22:00:00",
+      "price": 4367.78,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-02T02:00:00",
+      "price": 4303.2,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-02T06:00:00",
+      "price": 4371.3,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-02T10:00:00",
+      "price": 4376.55,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-02T14:00:00",
+      "price": 4354.47,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-02T18:00:00",
+      "price": 4293.05,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-02T22:00:00",
+      "price": 4274.52,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-03T02:00:00",
+      "price": 4325.86,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-03T06:00:00",
+      "price": 4335.54,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-03T10:00:00",
+      "price": 4310.96,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-03T14:00:00",
+      "price": 4374.89,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-03T18:00:00",
+      "price": 4481.89,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-03T22:00:00",
+      "price": 4476.77,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-04T02:00:00",
+      "price": 4449.87,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-04T06:00:00",
+      "price": 4396.66,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-04T10:00:00",
+      "price": 4374.94,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-04T14:00:00",
+      "price": 4410.51,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-04T18:00:00",
+      "price": 4312.37,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-04T22:00:00",
+      "price": 4275.77,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-05T02:00:00",
+      "price": 4298.09,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-05T06:00:00",
+      "price": 4327.31,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-05T10:00:00",
+      "price": 4422.91,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-05T14:00:00",
+      "price": 4418.28,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-05T18:00:00",
+      "price": 4282.04,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-05T22:00:00",
+      "price": 4324.1,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-06T02:00:00",
+      "price": 4306.61,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-06T06:00:00",
+      "price": 4317.13,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-06T10:00:00",
+      "price": 4310.45,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-06T14:00:00",
+      "price": 4299.68,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-06T18:00:00",
+      "price": 4272.22,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-06T22:00:00",
+      "price": 4254.58,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-07T02:00:00",
+      "price": 4273.11,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-07T06:00:00",
+      "price": 4294.83,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-07T10:00:00",
+      "price": 4294.39,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-07T14:00:00",
+      "price": 4308.87,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-07T18:00:00",
+      "price": 4297.95,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-07T22:00:00",
+      "price": 4290.54,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-08T02:00:00",
+      "price": 4304.03,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-08T06:00:00",
+      "price": 4314.25,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-08T10:00:00",
+      "price": 4289.55,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-08T14:00:00",
+      "price": 4315.31,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-08T18:00:00",
+      "price": 4367.55,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-08T22:00:00",
+      "price": 4291.75,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-09T02:00:00",
+      "price": 4309.69,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-09T06:00:00",
+      "price": 4306.69,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-09T10:00:00",
+      "price": 4357.02,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-09T14:00:00",
+      "price": 4350.34,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-09T18:00:00",
+      "price": 4291.79,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-09T22:00:00",
+      "price": 4296.5,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-10T02:00:00",
+      "price": 4309.34,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-10T06:00:00",
+      "price": 4317.68,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-10T10:00:00",
+      "price": 4330.18,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-10T14:00:00",
+      "price": 4328.6,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-10T18:00:00",
+      "price": 4408.49,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-10T22:00:00",
+      "price": 4317.93,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-11T02:00:00",
+      "price": 4347.48,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-11T06:00:00",
+      "price": 4403.01,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-11T10:00:00",
+      "price": 4440.95,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-11T14:00:00",
+      "price": 4432.37,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-11T18:00:00",
+      "price": 4404.28,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-11T22:00:00",
+      "price": 4425.81,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-12T02:00:00",
+      "price": 4459.32,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-12T06:00:00",
+      "price": 4503.34,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-12T10:00:00",
+      "price": 4529.9,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-12T14:00:00",
+      "price": 4519.16,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-12T18:00:00",
+      "price": 4547.09,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-12T22:00:00",
+      "price": 4660.55,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-13T02:00:00",
+      "price": 4708.84,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-13T06:00:00",
+      "price": 4762.74,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-13T10:00:00",
+      "price": 4713.99,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-13T14:00:00",
+      "price": 4722.8,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-13T18:00:00",
+      "price": 4656.5,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-13T22:00:00",
+      "price": 4642.36,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-14T02:00:00",
+      "price": 4667.7,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-14T06:00:00",
+      "price": 4668.7,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-14T10:00:00",
+      "price": 4654.92,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-14T14:00:00",
+      "price": 4635.72,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-14T18:00:00",
+      "price": 4581.97,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-14T22:00:00",
+      "price": 4612.67,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-15T02:00:00",
+      "price": 4609.79,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-15T06:00:00",
+      "price": 4639.95,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-15T10:00:00",
+      "price": 4592.36,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-15T14:00:00",
+      "price": 4531.51,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-15T18:00:00",
+      "price": 4495.6,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-15T22:00:00",
+      "price": 4494.11,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-16T02:00:00",
+      "price": 4524.24,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-16T06:00:00",
+      "price": 4523.04,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-16T10:00:00",
+      "price": 4514.76,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-16T14:00:00",
+      "price": 4502.77,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-16T18:00:00",
+      "price": 4458.35,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-16T22:00:00",
+      "price": 4489.8,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-17T02:00:00",
+      "price": 4504.27,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-17T06:00:00",
+      "price": 4500.8,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-17T10:00:00",
+      "price": 4544.72,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-17T14:00:00",
+      "price": 4494.03,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-17T18:00:00",
+      "price": 4491.56,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-17T22:00:00",
+      "price": 4521.73,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-18T02:00:00",
+      "price": 4591.77,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-18T06:00:00",
+      "price": 4619.46,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-18T10:00:00",
+      "price": 4577.56,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-18T14:00:00",
+      "price": 4572.5,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-18T18:00:00",
+      "price": 4602.77,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-18T22:00:00",
+      "price": 4593.67,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-19T02:00:00",
+      "price": 4590.64,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-19T06:00:00",
+      "price": 4554.85,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-19T10:00:00",
+      "price": 4541.5,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-19T14:00:00",
+      "price": 4516.92,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-19T18:00:00",
+      "price": 4478.03,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-19T22:00:00",
+      "price": 4447.49,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-20T02:00:00",
+      "price": 4470.48,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-20T06:00:00",
+      "price": 4464.97,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-20T10:00:00",
+      "price": 4481.62,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-20T14:00:00",
+      "price": 4472.19,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-20T18:00:00",
+      "price": 4498.74,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-20T22:00:00",
+      "price": 4480.48,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-21T02:00:00",
+      "price": 4481.8,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-21T06:00:00",
+      "price": 4478.89,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-21T10:00:00",
+      "price": 4479.69,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-21T14:00:00",
+      "price": 4463.65,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-21T18:00:00",
+      "price": 4484.22,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-21T22:00:00",
+      "price": 4494.75,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-22T02:00:00",
+      "price": 4452.87,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-22T06:00:00",
+      "price": 4308.37,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-22T10:00:00",
+      "price": 4200.64,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-22T14:00:00",
+      "price": 4181.75,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-22T18:00:00",
+      "price": 4171.17,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-22T22:00:00",
+      "price": 4147.83,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-23T02:00:00",
+      "price": 4199.95,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-23T06:00:00",
+      "price": 4191.56,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-23T10:00:00",
+      "price": 4206.4,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-23T14:00:00",
+      "price": 4195.58,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-23T18:00:00",
+      "price": 4184.27,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-23T22:00:00",
+      "price": 4154.43,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-24T02:00:00",
+      "price": 4166.19,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-24T06:00:00",
+      "price": 4149.22,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-24T10:00:00",
+      "price": 4173.29,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-24T14:00:00",
+      "price": 4179.86,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-24T18:00:00",
+      "price": 4174.56,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-24T22:00:00",
+      "price": 4165.19,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-25T02:00:00",
+      "price": 4148.66,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-25T06:00:00",
+      "price": 4045.35,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-25T10:00:00",
+      "price": 4011.37,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-25T14:00:00",
+      "price": 4004.14,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-25T18:00:00",
+      "price": 4000.19,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-25T22:00:00",
+      "price": 3920.53,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-26T02:00:00",
+      "price": 3863.06,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-26T06:00:00",
+      "price": 3965.69,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-26T10:00:00",
+      "price": 3925.96,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-26T14:00:00",
+      "price": 3911.57,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-26T18:00:00",
+      "price": 3947.27,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-26T22:00:00",
+      "price": 4026.14,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-27T02:00:00",
+      "price": 4037.1,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-27T06:00:00",
+      "price": 4022.7,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-27T10:00:00",
+      "price": 4010.91,
+      "volume": 0.0
+    },
+    {
+      "timestamp": "2025-09-27T14:00:00",
+      "price": 4003.37,
+      "volume": 0.0
+    }
+  ]
+}
