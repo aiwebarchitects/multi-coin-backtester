@@ -11,6 +11,7 @@ import logging
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 import os
+import settings
 
 logger = logging.getLogger(__name__)
 
@@ -22,13 +23,10 @@ class CoinGeckoHistoricalFetcher:
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'
         }
-        # Mapping for coin symbols to CoinGecko IDs
-        self.coin_map = {
-            'ETH': 'ethereum',
-            'BTC': 'bitcoin'
-        }
+        # Load coin mappings from settings
+        self.coin_map = settings.COIN_MAPPINGS
     
-    def fetch_ohlc_data(self, symbol: str = "ETH", days: int = 30) -> Optional[pd.DataFrame]:
+    def fetch_ohlc_data(self, symbol: str, days: int = 30) -> Optional[pd.DataFrame]:
         """Fetch OHLC data from CoinGecko (4-hour candles for 30 days)"""
         try:
             coin_id = self.coin_map.get(symbol)
@@ -83,7 +81,7 @@ class CryptoCompareHistoricalFetcher:
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'
         }
         
-    def fetch_historical_minutes(self, symbol: str = "ETH", limit: int = 2000) -> Optional[pd.DataFrame]:
+    def fetch_historical_minutes(self, symbol: str, limit: int = 2000) -> Optional[pd.DataFrame]:
         """Fetch historical minute data from CryptoCompare"""
         try:
             url = f"{self.base_url}/histominute"
@@ -175,7 +173,7 @@ class CryptoCompareHistoricalFetcher:
         """Bootstrap all historical data for specified coins"""
         try:
             if coins is None:
-                coins = ["ETH", "BTC"]
+                coins = settings.COINS
             
             timeframes = ["1m", "5m", "15m", "1h", "1d"]
             

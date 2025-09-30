@@ -76,8 +76,8 @@ The system will:
 Edit `settings.py` to customize:
 
 ```python
-# Coins to backtest
-COINS = ["BTC", "ETH"]  # Add more coins here
+# Coins to backtest - MODIFY THIS to add/remove coins for testing
+COINS = ["BTC", "ETH"]  # Only these coins will be processed
 
 # Algorithms to test
 ALGORITHMS = [
@@ -94,6 +94,30 @@ TIMEFRAME = "1m"  # 1-minute candles for short-term trading
 # Minimum trades required for valid results
 MIN_TRADES_THRESHOLD = 3
 ```
+
+#### Adding New Coins
+
+To add new cryptocurrencies for backtesting:
+
+1. **Add to COINS list** in `settings.py`:
+```python
+COINS = ["BTC", "ETH", "XRP", "ADA"]  # Add your desired coins
+```
+
+2. **Verify coin mapping exists** - The system includes 80+ pre-configured coin mappings:
+```python
+# These mappings are already available (DO NOT MODIFY):
+COIN_MAPPINGS = {
+    'BTC': 'bitcoin',
+    'ETH': 'ethereum', 
+    'XRP': 'ripple',
+    'ADA': 'cardano',
+    'SOL': 'solana',
+    # ... 75+ more coins
+}
+```
+
+**Important**: Only modify the `COINS` list. The `COIN_MAPPINGS` section contains 80+ cryptocurrency mappings and should not be modified.
 
 ### Parameter Ranges
 
