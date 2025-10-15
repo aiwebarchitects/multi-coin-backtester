@@ -3,7 +3,9 @@ Settings configuration for the multi-algorithm backtesting system
 """
 
 # Coins to backtest (starting with BTC and ETH as requested)
-COINS = ["BTC", "ETH"]
+#COINS = ["BTC", "ETH", "LTC", "XRP", "ADA", "SOL"]
+
+COINS = ["PAXG"]
 
 # Timeframe for backtesting (minute data for short-term trading)
 TIMEFRAME = "1m"
@@ -20,9 +22,16 @@ COMMISSION_RATE = 0.001  # 0.1% commission per trade
 ALGORITHMS = [
     "MACD",
     "RSI",
+    "RSI_4H",
+    "RSI_1MIN_DOUBLE_CONFIRM",
+    "RSI_4H_DOUBLE_CONFIRM",
+    "RSI_5MIN_DOUBLE_CONFIRM",
     "SUPPORT_VOLUME",
     "VOL24",
-    "SMA"
+    "SMA",
+    "SCALPING",
+    "BOLLINGER_BANDS",
+    "STOCHASTIC"
 ]
 
 # MACD algorithm parameter ranges for optimization (reduced for faster testing)
@@ -37,10 +46,46 @@ MACD_PARAMS = {
 # RSI algorithm parameter ranges for optimization (reduced for faster testing)
 RSI_PARAMS = {
     'period': [12, 14, 16],
-    'oversold_threshold': [25, 30, 35],
-    'overbought_threshold': [65, 70, 75],
+    'oversold_threshold': [15, 20, 25, 30, 35],
+    'overbought_threshold': [65, 70, 75, 80, 85],
     'take_profit': [0.01, 0.015, 0.02],  # 1% to 2%
     'stop_loss': [-0.005, -0.007, -0.01]  # -0.5% to -1%
+}
+
+# RSI 4H algorithm parameter ranges for optimization (optimized for 4-hour candles)
+RSI_4H_PARAMS = {
+    'period': [14, 16, 18, 20, 24, 28],
+    'oversold_threshold': [20, 25, 30, 35],
+    'overbought_threshold': [65, 70, 75, 80],
+    'take_profit': [0.02, 0.03, 0.04, 0.05],  # 2% to 5% (larger for 4h timeframe)
+    'stop_loss': [-0.01, -0.015, -0.02]  # -1% to -2% (larger for 4h timeframe)
+}
+
+# RSI 1MIN Double Confirm algorithm parameter ranges (requires 2 consecutive oversold signals on 1-minute)
+RSI_1MIN_DOUBLE_CONFIRM_PARAMS = {
+    'period': [10, 12, 14, 16, 18, 20],
+    'oversold_threshold': [15, 20, 25, 30, 35],
+    'overbought_threshold': [65, 70, 75, 80, 85],
+    'take_profit': [0.01, 0.015, 0.02],  # 1% to 2%
+    'stop_loss': [-0.005, -0.007, -0.01]  # -0.5% to -1%
+}
+
+# RSI 4H Double Confirm algorithm parameter ranges (requires 2 consecutive oversold signals on 4-hour)
+RSI_4H_DOUBLE_CONFIRM_PARAMS = {
+    'period': [14, 16, 18, 20, 24, 28],
+    'oversold_threshold': [20, 25, 30, 35],
+    'overbought_threshold': [65, 70, 75, 80],
+    'take_profit': [0.02, 0.03, 0.04, 0.05],  # 2% to 5% (larger for 4h timeframe)
+    'stop_loss': [-0.01, -0.015, -0.02]  # -1% to -2% (larger for 4h timeframe)
+}
+
+# RSI 5MIN Double Confirm algorithm parameter ranges (requires 2 consecutive oversold signals on 5-minute)
+RSI_5MIN_DOUBLE_CONFIRM_PARAMS = {
+    'period': [10, 12, 14, 16, 18, 20],
+    'oversold_threshold': [20, 25, 30, 35],
+    'overbought_threshold': [65, 70, 75, 80],
+    'take_profit': [0.01, 0.015, 0.02],  # 1% to 2% (moderate for 5min timeframe)
+    'stop_loss': [-0.005, -0.007, -0.01]  # -0.5% to -1% (moderate for 5min timeframe)
 }
 
 # Support and Volume algorithm parameter ranges
@@ -69,11 +114,41 @@ SMA_PARAMS = {
     'stop_loss': [-0.005, -0.007, -0.01]  # -0.5% to -1%
 }
 
+# Scalping algorithm parameter ranges (optimized for quick trades)
+SCALPING_PARAMS = {
+    'fast_ema': [3, 5, 8],  # Fast EMA period
+    'slow_ema': [10, 13, 15, 20],  # Slow EMA period
+    'rsi_period': [5, 7, 9],  # RSI period for momentum
+    'rsi_oversold': [25, 30, 35],  # RSI oversold threshold
+    'rsi_overbought': [65, 70, 75],  # RSI overbought threshold
+    'volume_multiplier': [1.3, 1.5, 1.8, 2.0],  # Volume spike multiplier
+    'take_profit': [0.005, 0.008, 0.01, 0.012],  # 0.5% to 1.2% (tighter for scalping)
+    'stop_loss': [-0.003, -0.005, -0.007]  # -0.3% to -0.7% (tighter for scalping)
+}
+
+# Bollinger Bands algorithm parameter ranges
+BOLLINGER_BANDS_PARAMS = {
+    'period': [10, 15, 20, 25, 30],  # Moving average period
+    'std_dev': [1.5, 2.0, 2.5, 3.0],  # Standard deviation multiplier
+    'take_profit': [0.01, 0.015, 0.02],  # 1% to 2%
+    'stop_loss': [-0.005, -0.007, -0.01]  # -0.5% to -1%
+}
+
+# Stochastic Oscillator algorithm parameter ranges
+STOCHASTIC_PARAMS = {
+    'k_period': [10, 14, 20],  # %K period (fast stochastic)
+    'd_period': [3, 5, 7],  # %D period (slow stochastic - SMA of %K)
+    'oversold_threshold': [15, 20, 25, 30],  # Oversold threshold
+    'overbought_threshold': [70, 75, 80, 85],  # Overbought threshold
+    'take_profit': [0.01, 0.015, 0.02],  # 1% to 2%
+    'stop_loss': [-0.005, -0.007, -0.01]  # -0.5% to -1%
+}
+
 # Minimum number of trades required for valid backtest results
 MIN_TRADES_THRESHOLD = 3
 
 # Output settings
-SAVE_PLOTS = False  # Set to True to enable plotting (disabled for performance)
+SAVE_PLOTS = True  # Set to True to enable plotting (disabled for performance)
 VERBOSE = True  # Set to False to reduce output
 
 # =============================================================================

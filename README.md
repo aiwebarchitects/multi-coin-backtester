@@ -6,7 +6,7 @@ A modular, self-testing cryptocurrency backtesting system that automatically fin
 
 - **Modular Architecture**: Easy to add new trading algorithms
 - **Self-Testing**: Automatically optimizes parameters for each algorithm
-- **Multiple Algorithms**: MACD, RSI, Support & Volume, Volume 24h, SMA
+- **Multiple Algorithms**: MACD, RSI, Support & Volume, Volume 24h, SMA, Scalping
 - **Real-Time Data**: Downloads fresh minute-level historical data
 - **Performance Ranking**: Automatically ranks strategies by total profit
 - **Minimum Trades Filter**: Only saves strategies with sufficient trade volume
@@ -38,6 +38,27 @@ A modular, self-testing cryptocurrency backtesting system that automatically fin
    - Short/long period moving average crossover
    - Golden cross and death cross signals
    - Trend-following strategy
+
+6. **Scalping**
+   - Fast/slow EMA crossover for trend detection
+   - RSI momentum confirmation
+   - Volume spike detection for optimal entry timing
+   - Optimized for quick trades with tighter risk management
+   - Ideal for 1-minute timeframe trading
+
+7. **Bollinger Bands**
+   - Volatility-based mean reversion strategy
+   - Upper/lower band breakout detection
+   - Dynamic support and resistance levels
+   - Standard deviation multiplier optimization
+   - Band width filtering for low-volatility periods
+
+8. **Stochastic Oscillator**
+   - Momentum indicator comparing closing price to price range
+   - %K and %D line crossover signals
+   - Overbought/oversold threshold detection
+   - Bullish crossover in oversold territory for buy signals
+   - Bearish crossover in overbought territory for sell signals
 
 ## 🛠 Installation
 
@@ -85,7 +106,10 @@ ALGORITHMS = [
     "RSI", 
     "SUPPORT_VOLUME",
     "VOL24",
-    "SMA"
+    "SMA",
+    "SCALPING",
+    "BOLLINGER_BANDS",
+    "STOCHASTIC"
 ]
 
 # Timeframe for trading
@@ -303,7 +327,10 @@ multi-coin-backtester/
 │   ├── macd_algorithm.py        # MACD implementation
 │   ├── support_volume_algorithm.py # Support & Volume implementation
 │   ├── vol24_algorithm.py       # Volume 24h implementation
-│   └── sma_algorithm.py         # SMA implementation
+│   ├── sma_algorithm.py         # SMA implementation
+│   ├── scalping_algorithm.py    # Scalping implementation
+│   ├── bollinger_bands_algorithm.py # Bollinger Bands implementation
+│   └── stochastic_algorithm.py  # Stochastic Oscillator implementation
 ├── data/                         # Historical data storage
 │   ├── BTC/                     # Bitcoin data
 │   └── ETH/                     # Ethereum data
